@@ -45,14 +45,16 @@ a:hover{
 }
 
 .menu {
-  color: aliceblue !important;
+  color: aliceblue;
 }
 
-.btnInicio {
-  color: #06202B !important;
+.btnContactanos {
+  color: aliceblue ;
+  background-color: #06202B;
 }
-.btnInicio:hover {
-  color: aliceblue !important;
+.btnContactanos:hover {
+  color: #06202b;
+  background-color: aliceblue;
 }
 
 .menu-bg {
