@@ -6,33 +6,48 @@
     <title>AlpesDesign</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap JS + Popper -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 
 </head>
 <body>
   <section id="menu">
-    <div class="container">
-        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 ">
-          <div class="col-md-3 mb-2 mb-md-0">
-            <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
-              <img class="logo" src="./imagenes/logo panas.png" alt="logo">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: rgba(6, 32, 43, 0.27); backdrop-filter: blur(5px);">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img class="logo" src="./imagenes/logo panas.png" alt="logo">
+        </a>
+  
+        <!-- Botón de menú hamburguesa -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <!-- Elementos del menú -->
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-md-0 menu-bg">
+            <li class="nav-item"><a class="nav-link btnInicio" href="#header">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link menu" href="#servicios">Servicios</a></li>
+            <li class="nav-item"><a class="nav-link menu" href="#conocenos">Conócenos</a></li>
+            <li class="nav-item"><a class="nav-link menu" href="#planes">Planes</a></li>
+            <li class="nav-item"><a class="nav-link menu" href="#contactanos">Contáctanos</a></li>
+          </ul>
+          <div class="d-flex">
+            <a href="https://wa.me/526141972421" target="_blank">
+              <button type="button" class="btn btn-light">
+                <img class="whatsapp" src="./imagenes/whatsapp.png" alt="whatsapp">6141972421
+              </button>
             </a>
           </div>
-    
-          <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 menu-bg">
-            <li><a href="#header" class=" px-2 btnInicio">Inicio</a></li>
-            <li><a href="#servicios" class=" px-2 menu ">Servicios</a></li>
-            <li><a href="#conocenos" class=" px-2 menu">Conocenos</a></li>
-            <li><a href="#planes" class=" px-2 menu">Planes</a></li>
-            <li><a href="#contactanos" class=" px-2 menu">Contactanos</a></li>
-          </ul>
-    
-          <div class="col-md-3 text-end">
-            <a href="https://wa.me/526141972421
-            " target="_blank"><button type="button" class="btn btn-light"><img class="whatsapp" src="./imagenes/whatsapp.png" alt="whatsapp">6141972421</button></a>
-          </div>
-        </header>
+        </div>
       </div>
-    </section>
+    </nav>
+  </section>
+  
     <section id="header">
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
