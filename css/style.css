@@ -65,6 +65,7 @@ a:hover{
 
 .logo {
   height: 3rem;
+  min-height: 1rem;
 }
 
 .menu {

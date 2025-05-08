@@ -57,5 +57,6 @@ document.addEventListener('DOMContentLoaded', function() {
     console.error('GSAP no se cargó correctamente');
   }
 });
+document.getElementById("year").textContent = new Date().getFullYear();
 
  
